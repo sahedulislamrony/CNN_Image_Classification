@@ -1,0 +1,250 @@
+{
+  "test_accuracy": 0.9183,
+  "best_val_accuracy": 0.923,
+  "final_train_accuracy": 0.9002407407407408,
+  "epochs": 15,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "parameters": 437226,
+  "device": "mps",
+  "per_class": {
+    "T-shirt/top": {
+      "precision": 0.8526,
+      "recall": 0.885,
+      "f1": 0.8685
+    },
+    "Trouser": {
+      "precision": 0.986,
+      "recall": 0.987,
+      "f1": 0.9865
+    },
+    "Pullover": {
+      "precision": 0.8734,
+      "recall": 0.904,
+      "f1": 0.8885
+    },
+    "Dress": {
+      "precision": 0.9181,
+      "recall": 0.931,
+      "f1": 0.9245
+    },
+    "Coat": {
+      "precision": 0.8512,
+      "recall": 0.898,
+      "f1": 0.874
+    },
+    "Sandal": {
+      "precision": 0.9918,
+      "recall": 0.971,
+      "f1": 0.9813
+    },
+    "Shirt": {
+      "precision": 0.8009,
+      "recall": 0.684,
+      "f1": 0.7379
+    },
+    "Sneaker": {
+      "precision": 0.9319,
+      "recall": 0.985,
+      "f1": 0.9577
+    },
+    "Bag": {
+      "precision": 0.989,
+      "recall": 0.991,
+      "f1": 0.99
+    },
+    "Ankle boot": {
+      "precision": 0.9813,
+      "recall": 0.947,
+      "f1": 0.9639
+    }
+  },
+  "confusion_matrix": [
+    [
+      885,
+      1,
+      18,
+      18,
+      5,
+      0,
+      68,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      987,
+      0,
+      10,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      13,
+      1,
+      904,
+      10,
+      39,
+      0,
+      33,
+      0,
+      0,
+      0
+    ],
+    [
+      13,
+      6,
+      9,
+      931,
+      18,
+      0,
+      23,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      32,
+      24,
+      898,
+      0,
+      45,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      971,
+      0,
+      23,
+      0,
+      6
+    ],
+    [
+      126,
+      5,
+      68,
+      19,
+      94,
+      0,
+      684,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      985,
+      0,
+      12
+    ],
+    [
+      1,
+      0,
+      3,
+      2,
+      0,
+      1,
+      1,
+      1,
+      991,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      0,
+      48,
+      0,
+      947
+    ]
+  ],
+  "custom_images": {
+    "results": [
+      {
+        "file": "01_tshirt.jpg",
+        "predicted": "T-shirt/top",
+        "confidence": 92.17,
+        "true": "T-shirt/top"
+      },
+      {
+        "file": "02_trouser.jpg",
+        "predicted": "Trouser",
+        "confidence": 100.0,
+        "true": "Trouser"
+      },
+      {
+        "file": "03_pullover.jpg",
+        "predicted": "Pullover",
+        "confidence": 69.13,
+        "true": "Pullover"
+      },
+      {
+        "file": "04_dress.jpg",
+        "predicted": "Dress",
+        "confidence": 28.33,
+        "true": "Dress"
+      },
+      {
+        "file": "05_coat.jpg",
+        "predicted": "Coat",
+        "confidence": 97.35,
+        "true": "Coat"
+      },
+      {
+        "file": "06_sandal.jpg",
+        "predicted": "Trouser",
+        "confidence": 88.34,
+        "true": "Sandal"
+      },
+      {
+        "file": "07_shirt.jpg",
+        "predicted": "Shirt",
+        "confidence": 29.05,
+        "true": "Shirt"
+      },
+      {
+        "file": "08_sneaker.jpg",
+        "predicted": "Sneaker",
+        "confidence": 71.82,
+        "true": "Sneaker"
+      },
+      {
+        "file": "09_bag.jpg",
+        "predicted": "Bag",
+        "confidence": 53.65,
+        "true": "Bag"
+      },
+      {
+        "file": "10_ankleboot.jpg",
+        "predicted": "Ankle boot",
+        "confidence": 65.31,
+        "true": "Ankle boot"
+      }
+    ],
+    "correct": 9,
+    "labelled": 10
+  }
+}

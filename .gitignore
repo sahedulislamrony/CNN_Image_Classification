@@ -1,0 +1,12 @@
+# The FashionMNIST download — torchvision re-fetches it automatically, so it
+# must NOT be committed (it is ~30 MB of raw idx files).
+data/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
