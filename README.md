@@ -1,4 +1,4 @@
-# Assignment 8 — CNN Image Classification with PyTorch
+# CNN Image Classification with PyTorch
 
 **FashionMNIST → my own smartphone photos**
 
